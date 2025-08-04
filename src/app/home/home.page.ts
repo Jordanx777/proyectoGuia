@@ -39,11 +39,11 @@ export class HomePage {
 
   getCategorias() {
     this.categorias = [
-      { id: 1, label: 'Castillo San Felipe', image: 'assets/img/cartagena/castillo.png', active: true },
-      { id: 2, label: 'Ciudad Amurallada', image: 'assets/img/cartagena/ciudad-amurallada.png', active: false },
-      { id: 3, label: 'Playa Blanca', image: 'assets/img/cartagena/playa-blanca.png', active: false },
-      { id: 4, label: 'Islas del Rosario', image: 'assets/img/cartagena/islas-rosario.png', active: false },
-      { id: 5, label: 'Getsemaní', image: 'assets/img/cartagena/getsemani.png', active: false }
+      { id: 1, label: 'Castillo San Felipe', image: 'assets/images/icons/castillo-de-san-felipe.jpg', active: true },
+      { id: 2, label: 'Ciudad Amurallada', image: 'assets/images/icons/barrios.jpg', active: false },
+      { id: 3, label: 'Playa Blanca', image: 'assets/images/icons/1.jpg', active: false },
+      { id: 4, label: 'Islas del Rosario', image: 'assets/images/icons/1.jpg', active: false },
+      { id: 5, label: 'Getsemaní', image: 'assets/images/icons/1.jpg', active: false }
     ];
   }
 }
