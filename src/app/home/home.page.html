@@ -13,7 +13,12 @@
 
  <!-- categorias -->
   <div class="categorias">
-    
+    <app-categorias *ngFor="let item of categorias " [item]="item" ></app-categorias>
+  </div>
+
+  <!-- populares -->
+  <div class="populares">
+    <app-populares></app-populares>
   </div>
 
 
